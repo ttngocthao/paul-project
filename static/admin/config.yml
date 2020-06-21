@@ -21,6 +21,7 @@ collections:
     files:
       - file: src/pages/index.md
         label: Home Page
+        name: homePage
         fields:
           - {
               name: "templateKey",
