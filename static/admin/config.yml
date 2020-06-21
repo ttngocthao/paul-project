@@ -29,8 +29,8 @@ collections:
       - file: src/pages/index.md
         label: Home Page
         name: homePage
-        media_folder: "/home"
-        public_folder: "/home"
+        media_folder: ""
+        public_folder: ""
         fields:
           - {
               name: "templateKey",
