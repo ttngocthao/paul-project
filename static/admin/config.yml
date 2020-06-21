@@ -14,14 +14,23 @@ collections:
     public_folder: ""
     create: true
     fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "blog-post",
+        }
       - { name: title, label: Title }
 
   - name: pages
     label: Pages
+
     files:
       - file: src/pages/index.md
         label: Home Page
         name: homePage
+        media_folder: "/home"
+        public_folder: "/home"
         fields:
           - {
               name: "templateKey",
