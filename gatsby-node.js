@@ -23,11 +23,13 @@ exports.createPages = async ({ graphql, actions }) => {
             frontmatter {
               templateKey
               title
-              image
+              image {
+                publicURL
+              }
             }
             fields {
-              slug
               sourceName
+              slug
             }
           }
         }
