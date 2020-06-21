@@ -20,7 +20,7 @@ module.exports = {
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
-      options: { path: `./src/images` },
+      options: { path: `./src/pages` },
     },
     {
       resolve: `gatsby-source-filesystem`,
