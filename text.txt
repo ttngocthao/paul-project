@@ -1,0 +1,5 @@
+@fortawesome/fontawesome-svg-core
+@fortawesome/free-brands-svg-icons
+@fortawesome/free-solid-svg-icons     @fortawesome/react-fontawesome
+ babel-preset-gatsby    dotenv    formik    gatsby-plugin-html-attributes    gatsby-plugin-netlify-cms gatsby-plugin-netlify-identity    gatsby-plugin-react-helmet   gatsby-plugin-sass    gatsby-plugin-web-font-loader    gatsby-remark-source-name    gatsby-source-filesystem    gatsby-transformer-remark  netlify-cms-app   node-sass    react-recaptcha
+   

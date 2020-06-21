@@ -1,0 +1,32 @@
+backend:
+  name: git-gateway
+  repo: ttngocthao/gatsby-nelifyCMS-template
+  branch: master
+media_folder: /public/images
+public_folder: /images
+
+collections:
+  - name: blog
+    label: Blog
+    folder: "src/pages/blog"
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    create: true
+    fields:
+      - { name: title, label: Title }
+
+  - name: pages
+    label: Pages
+    files:
+      - file: src/pages/index.md
+        label: Home Page
+        fields:
+          - {
+              name: "templateKey",
+              widget: hidden,
+              label: "Template Key",
+              default: "index-page",
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Image, name: image, widget: image }
