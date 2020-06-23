@@ -1,11 +1,12 @@
 import React from "react"
 import PropTypes from "prop-types"
-
+import Layout from "../components/layout/Layout"
+import Grid from "../components/homeIntro/Grid"
 const indexPage = props => {
   return (
-    <div>
-      <h1>Home page</h1>
-    </div>
+    <Layout>
+      <Grid />
+    </Layout>
   )
 }
 

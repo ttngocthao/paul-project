@@ -10,7 +10,7 @@ module.exports = {
     title: "website name",
     titleTemplate: "",
     description: "description",
-    url: "https://www.arthaus.co.uk", // No trailing slash allowed!
+    url: "https://www.chaindlestick.co.uk", // No trailing slash allowed!
     image: "/images/favicon.icon", // Path to your image you placed in the 'static' folder
     twitterUsername: "accountName",
     facebookUsername: "accountName",
@@ -55,7 +55,7 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["Lato", "Droid Serif"],
+          families: ["Poppins"],
         },
         //use local font - uncomment below
         // custom: {
