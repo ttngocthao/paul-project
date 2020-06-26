@@ -39,7 +39,66 @@ collections:
               default: "index-page",
             }
           - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: image }
+          - { label: Grid Image 1, name: image01, widget: image }
+          - { label: Grid Image 2, name: image02, widget: image }
+          - { label: Grid Image 3, name: image03, widget: image }
+          - { label: Grid Image 4, name: image04, widget: image }
+          - {
+              label: Short Intro,
+              name: shortIntro,
+              widget: list,
+              fields:
+                [
+                  {
+                    name: shortIntroHeading,
+                    label: Short Intro Heading,
+                    widget: string,
+                    required: false,
+                  },
+                  {
+                    name: shortIntroText,
+                    label: Short Intro Text,
+                    widget: list,
+                    fields:
+                      [
+                        {
+                          name: paragraph,
+                          label: paragraph,
+                          widget: string,
+                          required: false,
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: Products Intro,
+              name: productsIntro,
+              widget: list,
+              fields:
+                [
+                  {
+                    name: productIntroHeading,
+                    label: product Intro Title,
+                    required: false,
+                    widget: string,
+                  },
+                  {
+                    name: shortProductsIntroText,
+                    label: Short Products Intro Text,
+                    widget: list,
+                    fields:
+                      [
+                        {
+                          name: paragraph,
+                          label: paragraph,
+                          widget: string,
+                          required: false,
+                        },
+                      ],
+                  },
+                ],
+            }
       - file: src/pages/products/index.md
         label: Products Page
         name: productsPage

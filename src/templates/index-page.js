@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Layout from "../components/layout/Layout"
-import Grid from "../components/homeIntro/Grid"
+import Grid from "../components/homeGrid/Grid"
 const indexPage = props => {
   return (
     <Layout>
