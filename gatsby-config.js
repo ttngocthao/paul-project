@@ -18,21 +18,22 @@ module.exports = {
     linkedInUsername: "accountName",
   },
   plugins: [
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: { path: `./src/pages` },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: { path: `./src/pages` },
+    // },
+    { resolve: `gatsby-remark-source-name` },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `./src/pages/blog`,
+        path: `${__dirname}/src/pages/blog`,
         name: "blogData",
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `./src/pages`,
+        path: `${__dirname}/src/pages`,
         name: "pagesData",
       },
     },
