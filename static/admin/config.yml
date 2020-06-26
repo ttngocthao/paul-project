@@ -44,32 +44,32 @@ collections:
           - { label: Grid Image 3, name: image03, widget: image }
           - { label: Grid Image 4, name: image04, widget: image }
 
-          # - {
-          #     label: Short Intro,
-          #     name: shortIntro,
-          #     widget: object,
-          #     fields:
-          #        - {
-          #           name: shortIntroHeading,
-          #           label: Short Intro Heading,
-          #           widget: string,
-          #           required: false,
-          #           }
-          #        - {
-          #           name: shortIntroText,
-          #           label: Short Intro Text,
-          #           widget: list,
-          #           fields:
-          #             [
-          #               {
-          #                 name: paragraph,
-          #                 label: paragraph,
-          #                 widget: string,
-          #                 required: false,
-          #               },
-          #             ],
-          #         }
-          #   }
+          - {
+              label: Short Intro,
+              name: shortIntro,
+              widget: object,
+              fields:
+                 - {
+                    name: shortIntroHeading,
+                    label: Short Intro Heading,
+                    widget: string,
+                    required: false,
+                    }
+                 - {
+                    name: shortIntroText,
+                    label: Short Intro Text,
+                    widget: list,
+                    fields:
+                      [
+                        {
+                          name: paragraph,
+                          label: paragraph,
+                          widget: string,
+                          
+                        },
+                      ],
+                  }
+            }
           # - {
           #     label: Products Intro,
           #     name: productsIntro,
