@@ -4,15 +4,7 @@ import styles from "./grid.module.scss"
 import ImgCard from "../ImgCard/ImgCard"
 
 const Grid = ({ itemData }) => {
-  const {
-    image01,
-    image02,
-    image03,
-    image04,
-    title,
-    productsIntro,
-    shortInto,
-  } = itemData
+  const { image01, image02, image03, image04, title } = itemData
   return (
     <div className="grid">
       <div className="info-block gold-block">
