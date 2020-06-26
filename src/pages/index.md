@@ -24,5 +24,6 @@ productsIntro:
           sit amet congue. "
       - paragraph: Pellentesque vel leo a eros sollicitudin varius a ac lacus. Aliquam
           viverra laoreet aliquet.
+    productIntroHeading: Heading
 image: lavender-background.jpg
 ---
