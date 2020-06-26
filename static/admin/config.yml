@@ -45,8 +45,8 @@ collections:
           - { label: Grid Image 4, name: image04, widget: image }
 
           - {
-              label: Short Intro,
-              name: shortIntro,
+              label: Grid short Info,
+              name: gridShortIntro,
               widget: object,
               fields:
                 {
