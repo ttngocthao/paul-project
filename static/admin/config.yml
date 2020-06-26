@@ -49,26 +49,18 @@ collections:
               name: shortIntro,
               widget: object,
               fields:
-                 - {
-                    name: shortIntroHeading,
-                    label: Short Intro Heading,
-                    widget: string,
-                    required: false,
-                    }
-                 - {
-                    name: shortIntroText,
-                    label: Short Intro Text,
-                    widget: list,
-                    fields:
-                      [
-                        {
-                          name: paragraph,
-                          label: paragraph,
-                          widget: string,
-                          
-                        },
-                      ],
-                  }
+                {
+                  name: shortIntroHeading,
+                  label: Short Intro Heading,
+                  widget: string,
+                  required: false,
+                },
+              {
+                name: shortIntroText,
+                label: Short Intro Text,
+                widget: list,
+                fields: [{ name: paragraph, label: paragraph, widget: string }],
+              },
             }
           # - {
           #     label: Products Intro,
