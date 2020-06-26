@@ -78,28 +78,26 @@ collections:
               name: productsIntro,
               widget: object,
               fields:
-                [
-                  {
-                    name: productIntroHeading,
-                    label: product Intro Title,
-                    required: false,
-                    widget: string,
-                  },
-                  {
-                    name: shortProductsIntroText,
-                    label: Short Products Intro Text,
-                    widget: list,
-                    fields:
-                      [
-                        {
-                          name: paragraph,
-                          label: paragraph,
-                          widget: string,
-                          required: false,
-                        },
-                      ],
-                  },
-                ],
+                {
+                  name: productIntroHeading,
+                  label: product Intro Title,
+                  required: false,
+                  widget: string,
+                },
+              {
+                name: shortProductsIntroText,
+                label: Short Products Intro Text,
+                widget: list,
+                fields:
+                  [
+                    {
+                      name: paragraph,
+                      label: paragraph,
+                      widget: string,
+                      required: false,
+                    },
+                  ],
+              },
             }
       - file: src/pages/products/index.md
         label: Products Page
