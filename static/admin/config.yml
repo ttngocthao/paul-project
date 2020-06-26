@@ -49,14 +49,14 @@ collections:
               widget: object,
               fields:
                 {
-                  name: shortIntroHeading,
-                  label: Short Intro Heading,
+                  name: heading,
+                  label: Heading,
                   widget: string,
                   required: false,
                 },
               {
-                name: shortIntroText,
-                label: Short Intro Text,
+                name: text,
+                label: Text,
                 widget: list,
                 fields: [{ name: paragraph, label: paragraph, widget: string }],
               },
