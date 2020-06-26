@@ -38,6 +38,12 @@ exports.createPages = async ({ graphql, actions }) => {
               image04 {
                 publicURL
               }
+              shortIntro {
+                shortIntroHeading
+                shortIntroText {
+                  paragraph
+                }
+              }
             }
             fields {
               sourceName

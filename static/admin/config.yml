@@ -73,6 +73,18 @@ collections:
                 ],
             }
           - {
+              label: Product Intro,
+              name: proIntro,
+              widget: object,
+              fields: { name: heading, label: Heading, widget: string },
+              {
+                name: text,
+                label: Text,
+                widget: list,
+                fields: { name: paragraph, label: Paragraph, widget: string },
+              },
+            }
+          - {
               label: Products Intro,
               name: productsIntro,
               widget: list,
