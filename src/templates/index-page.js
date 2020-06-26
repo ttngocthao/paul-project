@@ -7,8 +7,8 @@ const indexPage = ({ pageContext }) => {
   console.log("itemData", itemData)
   return (
     <Layout>
-      {/* <Grid /> */}
       <h1>This is home page</h1>
+      <Grid itemData={itemData} />
     </Layout>
   )
 }
