@@ -1,6 +1,16 @@
 @import '../../styles/_variable.scss';
 
-.header {}
+.header {
+  margin: 0 auto;
+  position: fixed;
+  padding: 20px 2.5rem 10px;
+  width: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: $black;
+  z-index: 30;
+}
 
 .menuBtn {
   width: 30px;
@@ -74,20 +84,13 @@
 }
 
 .nav {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 10px;
+
   font-family: $defaultFont;
-  position: fixed;
-  padding: 20px 10px 10px;
-  width: 100%;
-  max-width: 1200px;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 30;
+  margin: 0 auto;
+  max-width: 1536px;
+
   color: $goldFont;
-  background-color: $black;
+
 
   @media only screen and (min-width:760px) {
     display: flex;

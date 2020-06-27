@@ -2,13 +2,14 @@ import React from "react"
 import PropTypes from "prop-types"
 import Layout from "../components/layout/Layout"
 import Grid from "../components/homeGrid/Grid"
+import About from "../components/about/About"
 const indexPage = ({ pageContext }) => {
   const { itemData } = pageContext
   console.log("itemData", itemData)
   return (
     <Layout>
-      <h1>This is home page</h1>
       <Grid itemData={itemData} />
+      <About />
     </Layout>
   )
 }

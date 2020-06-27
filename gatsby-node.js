@@ -39,14 +39,14 @@ exports.createPages = async ({ graphql, actions }) => {
                 publicURL
               }
               shortIntro {
-                shortIntroHeading
-                shortIntroText {
+                heading
+                text {
                   paragraph
                 }
               }
               productsIntro {
-                productIntroHeading
-                shortProductsIntroText {
+                heading
+                text {
                   paragraph
                 }
               }

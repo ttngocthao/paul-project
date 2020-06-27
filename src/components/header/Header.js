@@ -14,7 +14,7 @@ const Header = props => {
       <nav className={styles.nav}>
         <div className={styles.navContent}>
           <Link to="/">
-            <span>Logo</span>
+            <span style={{ color: "white" }}>Logo</span>
           </Link>
           <ul
             className={`${styles.menuBtn} ${menuOpened && styles.menuOpened}`}

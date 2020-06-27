@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import styles from "./grid.module.scss"
 import ImgCard from "../ImgCard/ImgCard"
+import Button from "../button/Button"
 
 const Grid = ({ itemData }) => {
   const {
@@ -14,50 +15,48 @@ const Grid = ({ itemData }) => {
     productsIntro,
   } = itemData
   return (
-    <div className="grid">
-      <div className="info-block gold-block">
+    <div className={styles.grid}>
+      <div className={`${styles.infoBlock} ${styles.goldBlock}`}>
         {shortIntro.heading && (
-          <h2 className="block-heading">{shortIntro.heading}</h2>
+          <h2 className={styles.blockHeading}>{shortIntro.heading}</h2>
         )}
         {shortIntro.text &&
           shortIntro.text.length !== 0 &&
-          shortIntro.text.map((p, index) => {
-            return <p key={index}>{p}</p>
+          shortIntro.text.map((item, index) => {
+            return <p key={index}>{item.paragraph}</p>
           })}
-
-        <a className="view-btn white">Read more about us</a>
+        <Button label="read more about us" href="#about" color="white" />
       </div>
       <div
-        className="img-block img-01"
-        style={{ backgroundImage: `url(${image01})` }}
+        className={`${styles.imgBlock} ${styles.img01}`}
+        style={{ backgroundImage: `url(${image01.publicURL})` }}
       ></div>
       <div
-        className="img-block img-02"
-        style={{ backgroundImage: `url(${image02})` }}
+        className={`${styles.imgBlock} ${styles.img02}`}
+        style={{ backgroundImage: `url(${image02.publicURL})` }}
       ></div>
-      <div className="title-block">
+      <div className={styles.titleBlock}>
         <h1>{title}</h1>
       </div>
-      <div className="black-block"></div>
+      <div className={styles.blackBlock}></div>
       <div
-        className="img-block img-03"
-        style={{ backgroundImage: `url(${image03})` }}
+        className={`${styles.imgBlock} ${styles.img03}`}
+        style={{ backgroundImage: `url(${image03.publicURL})` }}
       ></div>
       <div
-        className="img-block img-04"
-        style={{ backgroundImage: `url(${image04})` }}
+        className={`${styles.imgBlock} ${styles.img04}`}
+        style={{ backgroundImage: `url(${image04.publicURL})` }}
       ></div>
-      <div className="info-block white-block">
+      <div className={`${styles.infoBlock} ${styles.whiteBlock}`}>
         {productsIntro.heading && (
-          <h2 className="block-heading">{productsIntro.heading}</h2>
+          <h2 className={styles.blockHeading}>{productsIntro.heading}</h2>
         )}
         {productsIntro.text &&
           productsIntro.text.length !== 0 &&
-          productsIntro.text.map((p, index) => {
-            return <p key={index}>{p}</p>
+          productsIntro.text.map((item, index) => {
+            return <p key={index}>{item.paragraph}</p>
           })}
-
-        <a className="view-btn black">View more products</a>
+        <Button href="#products" color="black" label="View our products" />
       </div>
     </div>
   )
