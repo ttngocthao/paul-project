@@ -101,6 +101,36 @@ collections:
                   },
                 ],
             }
+          - {
+              label: About Section,
+              name: aboutDetail,
+              widget: object,
+              fields:
+                [
+                  { name: avatar, label: profile Image, widget: image },
+                  { name: role, label: your role, widget: string },
+                  {
+                    name: story,
+                    label: your story paragraphs,
+                    widget: list,
+                    fields:
+                      [
+                        {
+                          name: block,
+                          label: block of texts,
+                          widget: list,
+                          fields:
+                            { name: paragraph, label: text, widget: string },
+                        },
+                        {
+                          name: image,
+                          label: image for this block,
+                          widget: image,
+                        },
+                      ],
+                  },
+                ],
+            }
       - file: src/pages/products/index.md
         label: Products Page
         name: productsPage

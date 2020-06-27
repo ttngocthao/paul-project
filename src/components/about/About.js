@@ -13,8 +13,8 @@ const About = props => {
           src="https://i7.pngguru.com/preview/811/233/212/computer-icons-user-login-desktop-wallpaper-others.jpg"
           className={styles.avatar}
         />
-        <h3>Paul Denman</h3>
-        <h4>Role/CEO/Founder</h4>
+        <h3 className={styles.name}>Paul Denman</h3>
+        <h4 className={styles.role}>Role/CEO/Founder</h4>
         <div className={styles.list}>
           <Button
             href="#contact"
