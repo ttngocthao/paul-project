@@ -44,6 +44,12 @@ exports.createPages = async ({ graphql, actions }) => {
                   paragraph
                 }
               }
+              productsIntro {
+                productIntroHeading
+                shortProductsIntroText {
+                  paragraph
+                }
+              }
             }
             fields {
               sourceName
