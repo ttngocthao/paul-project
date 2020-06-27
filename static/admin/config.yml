@@ -120,7 +120,7 @@ collections:
                           label: block of texts,
                           widget: list,
                           fields:
-                            { name: paragraph, label: text, widget: string },
+                            [{ name: paragraph, label: text, widget: string }],
                         },
                         {
                           name: image,
