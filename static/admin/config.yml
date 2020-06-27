@@ -126,6 +126,7 @@ collections:
                           name: image,
                           label: image for this block,
                           widget: image,
+                          required: false,
                         },
                       ],
                   },
