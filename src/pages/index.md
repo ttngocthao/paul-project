@@ -8,13 +8,20 @@ image04: 80f453473d2af41f179584713b791fd7.jpeg
 shortIntro:
   shortIntroHeading: BUILD YOUR AMAZING WEBSITE
   shortIntroText:
-    - paragraph:
-        Quisque non est velit. Phasellus ac enim facilisis, pulvinar turpis
+    - paragraph: Quisque non est velit. Phasellus ac enim facilisis, pulvinar turpis
         sit amet, faucibus erat. Aliquam ac ex consectetur, venenatis mi et,
         dignissim tortor.
     - paragraph: Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Proin faucibus bibendum felis ac ullamcorper.
         Quisque non pulvinar enim, blandit laoreet dolor.
-
+productsIntro:
+  shortProductsIntroText:
+    - paragraph: "Morbi eros lorem, imperdiet a dictum ac, consectetur vel lacus.
+        Aenean gravida posuere elit. Cum sociis natoque penatibus et magnis dis
+        parturient montes, nascetur ridiculus mus. "
+    - paragraph: "Morbi eros lorem, imperdiet a dictum ac, consectetur vel lacus.
+        Aenean gravida posuere elit. Cum sociis natoque penatibus et magnis dis
+        parturient montes, nascetur ridiculus mus. "
+  productIntroHeading: Our products
 image: lavender-background.jpg
 ---
