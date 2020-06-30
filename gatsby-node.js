@@ -23,9 +23,6 @@ exports.createPages = async ({ graphql, actions }) => {
             frontmatter {
               templateKey
               title
-              image {
-                publicURL
-              }
               image01 {
                 publicURL
               }
@@ -38,16 +35,30 @@ exports.createPages = async ({ graphql, actions }) => {
               image04 {
                 publicURL
               }
+              productsIntro {
+                heading
+                text {
+                  paragraph
+                }
+              }
               shortIntro {
                 heading
                 text {
                   paragraph
                 }
               }
-              productsIntro {
-                heading
-                text {
-                  paragraph
+              aboutDetail {
+                role
+                avatar {
+                  publicURL
+                }
+                story {
+                  block {
+                    paragraph
+                  }
+                  image {
+                    publicURL
+                  }
                 }
               }
             }

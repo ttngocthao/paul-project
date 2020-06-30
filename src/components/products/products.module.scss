@@ -1,0 +1,75 @@
+@import '../../styles/_variable.scss';
+$width: 300px;
+
+.itemWrap {
+  max-width: $width;
+
+  margin: 20px auto;
+
+}
+
+.tabList {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  max-width: $width;
+  margin: 10px auto 0;
+}
+
+.photo {
+  margin-bottom: 10px;
+
+  img {
+    vertical-align: bottom;
+  }
+}
+
+.tabItem {
+  flex-grow: 1;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(153, 152, 152);
+  position: relative;
+  color: silver;
+  max-width: 145px;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 145px;
+    height: 5px;
+    background-color: white;
+  }
+}
+
+.tabContent {
+  padding: 10px;
+  border: 1px solid;
+  min-height: 250px;
+  max-width: $width;
+  margin: 0 auto;
+}
+
+.activeTab {
+  color: red;
+  border-left: 1px solid;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  position: relative;
+  background-color: white;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 144px;
+    height: 2px;
+    background-color: white;
+  }
+}

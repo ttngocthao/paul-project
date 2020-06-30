@@ -1,0 +1,87 @@
+.wrap {
+  width: 300px;
+  height: 200px;
+  opacity: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: grow 60s linear 10ms infinite;
+  transition: 3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.priceTag {
+  color: white;
+  background-color: #333;
+  padding: 10px;
+  display: inline-block;
+  position: absolute;
+  z-index: 5;
+  right: -6px;
+  top: -4px;
+  min-width: 70px;
+  text-align: center;
+
+  &::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 41.82px 41.82px 0;
+    border-color: transparent #333 transparent transparent;
+    position: absolute;
+    right: 70px;
+    top: 0px;
+  }
+}
+
+.slideWrap {
+  max-width: 310px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.imgList {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1)
+  }
+
+  50% {
+    transform: scale(1.2)
+  }
+}
+
+.activePhoto {
+  opacity: 1;
+}
+
+.touchIcon {
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  background-size: cover;
+  padding: 5px;
+
+  display: block;
+
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  background-color: rgba($color: white, $alpha: .8);
+}
+
+.detailImg {
+  max-width: 500px;
+  width: 100%;
+  padding: 10px;
+}

@@ -34,10 +34,18 @@ const Header = props => {
             menuOpened ? styles.menuListShow : ""
           }`}
         >
-          <li className={styles.menuItem}>About</li>
-          <li className={styles.menuItem}>Products</li>
-          <li className={styles.menuItem}>Contact</li>
-          <li className={styles.menuItem}>Delievery</li>
+          <li className={styles.menuItem} onClick={() => setMenuOpened(false)}>
+            <a href="#about">About</a>
+          </li>
+          <li className={styles.menuItem} onClick={() => setMenuOpened(false)}>
+            <a href="#products">Products</a>
+          </li>
+          <li className={styles.menuItem} onClick={() => setMenuOpened(false)}>
+            <a href="#contact">Contact</a>
+          </li>
+          <li className={styles.menuItem} onClick={() => setMenuOpened(false)}>
+            <a href="#delievery">Delievery</a>
+          </li>
         </ul>
       </nav>
     </header>

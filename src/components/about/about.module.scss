@@ -2,14 +2,20 @@
 
 .wrap {
   position: relative;
+  padding-top: 60px;
+
 }
 
 .avatar {
   max-width: 100px;
-  border-radius: 50%;
+
   width: 100%;
-  overflow: hidden;
+
   margin: 10px auto;
+
+  img {
+    border-radius: 50%;
+  }
 }
 
 .title {
@@ -55,7 +61,7 @@
 }
 
 .bottomSection {
-  // background-color: $black;
+  background-color: white;
   // color: $whiteFont;
   padding-top: 10px;
   padding-left: 10px;
