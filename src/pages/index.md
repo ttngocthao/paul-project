@@ -4,6 +4,7 @@ title: Chaindle stick
 image01: 93ca41f399f3196923c769da96fc2aec.jpeg
 image02: d07586f450baf06b5db84a6382f91981.jpeg
 image03: 7442a5ae603d27d1cf50ce8be906c2bd.jpeg
+image04: 80f453473d2af41f179584713b791fd7.jpeg
 shortIntro:
   shortIntroHeading: BUILD YOUR AMAZING WEBSITE
   shortIntroText:
@@ -37,8 +38,6 @@ productsIntro:
         parturient montes, nascetur ridiculus mus.
     - paragraph: Duis lacinia et urna sit amet congue. Pellentesque vel leo a eros
         sollicitudin varius a ac lacus. Aliquam viverra laoreet aliquet.
-image: lavender-background.jpg
-image04: 80f453473d2af41f179584713b791fd7.jpeg
 aboutDetail:
   avatar: avatar.jpg
   role: Welder - Artist - Founder
@@ -70,4 +69,36 @@ aboutDetail:
             eu ad Lorem culpa laborum quis non proident. Magna minim amet
             excepteur consectetur est incididunt adipisicing dolore eiusmod et
             do.
+products:
+  productItem:
+    - productImages:
+        - productImage: 10961430453_528c6b2267_c.jpg
+          productImageCap: Rustic chains in lobster colour
+        - productImage: zob7f5mtfhbg09_45_21.jpg
+          productImageCap: "Rustic chains "
+        - productImage: rustic-chains-dillon-thompson.jpg
+          productImageCap: Rustic chain on wood
+      productName: Rustic Chain
+      productCode: RC_red_black
+      productPrice: "135"
+      productDescription:
+        - paragraph: "Description: Lorem sint nisi et Lorem nulla ea magna elit commodo.
+            Anim tempor culpa officia ea aute occaecat eiusmod culpa tempor et
+            qui deserunt aliqua anim. "
+        - paragraph: Eu incididunt non ut sunt ea nostrud nostrud. Voluptate incididunt do
+            culpa elit deserunt ut veniam ipsum aute quis ullamco ea est.
+      productMoreDetail:
+        - paragraph: "H: 80cm, W: 50cm, Weight: etc"
+        - paragraph: Minim enim mollit voluptate fugiat adipisicing elit incididunt. Anim
+            quis ea minim id ex consectetur. Nostrud tempor sit aliquip enim
+            laborum est. Dolor ea do Lorem aliquip in mollit exercitation
+            proident.
+  shortIntro:
+    - paragraph: Cillum adipisicing amet ipsum ipsum eiusmod ex aliqua mollit aute
+        tempor. Sint laboris ea dolor amet nostrud dolor adipisicing adipisicing
+        duis labore magna nostrud dolor.
+    - paragraph: Cillum adipisicing amet ipsum ipsum eiusmod ex aliqua mollit aute
+        tempor. Sint laboris ea dolor amet nostrud dolor adipisicing adipisicing
+        duis labore magna nostrud dolor.
+image: lavender-background.jpg
 ---
