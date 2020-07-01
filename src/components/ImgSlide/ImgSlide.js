@@ -26,7 +26,7 @@ const ImgSlide = ({ thumbnails, productPrice }) => {
   return (
     <Fragment>
       <div className={styles.slideWrap}>
-        <span className={`${styles.priceTag}`}>{productPrice}</span>
+        <span className={`${styles.priceTag}`}>£ {productPrice}</span>
         <div className={styles.imgList}>
           {thumbnails.map((item, index) => {
             return (
