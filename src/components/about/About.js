@@ -15,59 +15,62 @@ const About = ({ data }) => {
       })
   }
   return (
-    <div className={styles.wrap} id="about">
-      <div className={styles.topSection}>
-        <h2 className={styles.title}>About</h2>
-        <ImgCard
-          alt="paul avatar"
-          src={avatar.publicURL}
-          className={styles.avatar}
-        />
-        <h3 className={styles.name}>Paul Denman</h3>
-        <h4 className={styles.role}>{role}</h4>
-        <div className={styles.list}>
-          <Button
-            href="#contact"
-            label="Contact Paul"
-            color="black"
-            className={styles.contactBtn}
+    <Fragment>
+      <div className={styles.spareWrap} id="about"></div>
+      <div className={styles.wrap}>
+        <div className={styles.topSection}>
+          <h2 className={styles.title}>About</h2>
+          <ImgCard
+            alt="paul avatar"
+            src={avatar.publicURL}
+            className={styles.avatar}
           />
-          <Button
-            href="#facebook link"
-            label="follow Paul"
-            color="black"
-            className={styles.followBtn}
-          />
+          <h3 className={styles.name}>Paul Denman</h3>
+          <h4 className={styles.role}>{role}</h4>
+          <div className={styles.list}>
+            <Button
+              href="#contact"
+              label="Contact Paul"
+              color="black"
+              className={styles.contactBtn}
+            />
+            <Button
+              href="#facebook link"
+              label="follow Paul"
+              color="black"
+              className={styles.followBtn}
+            />
+          </div>
+        </div>
+
+        <div className={styles.bottomSection}>
+          <div className={styles.content}>
+            {story &&
+              story.length !== 0 &&
+              story.map((item, index) => {
+                const { block, image } = item
+
+                // console.log(block)
+                return (
+                  <Fragment key={index}>
+                    <BlockStory block={block} />
+                    {image && (
+                      <ImgCard
+                        src={image.publicURL}
+                        className={styles.paraImg}
+                        atl=""
+                      />
+                    )}
+                  </Fragment>
+                )
+              })}
+          </div>
         </div>
       </div>
-
-      <div className={styles.bottomSection}>
-        <div className={styles.content}>
-          {story &&
-            story.length !== 0 &&
-            story.map((item, index) => {
-              const { block, image } = item
-
-              console.log(block)
-              return (
-                <Fragment key={index}>
-                  <BlockStory block={block} />
-                  {image && (
-                    <ImgCard
-                      src={image.publicURL}
-                      className={styles.paraImg}
-                      atl=""
-                    />
-                  )}
-                </Fragment>
-              )
-            })}
-        </div>
-      </div>
-    </div>
+    </Fragment>
   )
 }
 
-About.propTypes = {}
+About.propTypes = { data: PropTypes.object.isRequired }
 
 export default About

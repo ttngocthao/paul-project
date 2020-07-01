@@ -132,6 +132,93 @@ collections:
                   },
                 ],
             }
+          - {
+              label: Products Section,
+              name: products,
+              widget: object,
+              fields:
+                [
+                  {
+                    name: shortIntro,
+                    label: Short Introduction,
+                    widget: list,
+                    fields:
+                      [{ name: paragraph, label: paragraph, widget: string }],
+                  },
+                  {
+                    name: productList,
+                    label: Products,
+                    widget: list,
+                    fields:
+                      [
+                        {
+                          name: productName,
+                          label: Product name,
+                          widget: string,
+                          required: false,
+                        },
+                        {
+                          name: productCode,
+                          label: Product code/id to identify,
+                          widget: string,
+                          required: false,
+                        },
+                        {
+                          name: productPrice,
+                          label: Product price,
+                          widget: string,
+                        },
+                        {
+                          name: productImages,
+                          label: Product images,
+                          widget: list,
+                          fields:
+                            [
+                              {
+                                name: productImage,
+                                label: Product Image,
+                                widget: image,
+                              },
+                              {
+                                name: productImageCap,
+                                label: Product Image Caption,
+                                widget: string,
+                                required: false,
+                              },
+                            ],
+                        },
+                        {
+                          name: productDescription,
+                          label: Product description,
+                          widget: list,
+                          fields:
+                            [
+                              {
+                                name: paragraph,
+                                label: paragraph,
+                                widget: string,
+                              },
+                            ],
+                          required: false,
+                        },
+                        {
+                          name: productMoreDetail,
+                          label: Product more details,
+                          widget: list,
+                          fields:
+                            [
+                              {
+                                name: paragraph,
+                                label: paragraph,
+                                widget: string,
+                              },
+                            ],
+                          required: false,
+                        },
+                      ],
+                  },
+                ],
+            }
       - file: src/pages/products/index.md
         label: Products Page
         name: productsPage

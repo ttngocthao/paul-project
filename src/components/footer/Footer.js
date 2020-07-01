@@ -1,13 +1,8 @@
 import React from "react"
-import {
-  faFacebookF,
-  faTwitter,
-  faInstagram,
-  faLinkedinIn,
-} from "@fortawesome/free-brands-svg-icons"
+import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons"
 import SocialMediaIcon from "../socialMediaIcon/SocialMediaIcon"
 import styles from "./footer.module.scss"
-import PropTypes from "prop-types"
+//import PropTypes from "prop-types"
 
 const Footer = props => {
   return (
@@ -25,6 +20,6 @@ const Footer = props => {
   )
 }
 
-Footer.propTypes = {}
+//Footer.propTypes = {}
 
 export default Footer

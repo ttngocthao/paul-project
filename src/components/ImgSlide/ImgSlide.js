@@ -2,10 +2,10 @@ import React, { useState, useEffect, Fragment } from "react"
 import PropTypes from "prop-types"
 import styles from "./imgSlide.module.scss"
 import TouchIcon from "../../images/touchIcon_small.png"
-import Slider from "react-slick"
+
 import ImgCard from "../ImgCard/ImgCard"
 import Modal from "../modal/Modal"
-const ImgSlide = ({ thumbnails }) => {
+const ImgSlide = ({ thumbnails, productPrice }) => {
   //thumbnails array and running time will be passed from parent component
 
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -26,7 +26,7 @@ const ImgSlide = ({ thumbnails }) => {
   return (
     <Fragment>
       <div className={styles.slideWrap}>
-        <span className={`${styles.priceTag}`}>£35</span>
+        <span className={`${styles.priceTag}`}>{productPrice}</span>
         <div className={styles.imgList}>
           {thumbnails.map((item, index) => {
             return (
@@ -35,7 +35,9 @@ const ImgSlide = ({ thumbnails }) => {
                 className={`${styles.wrap} ${
                   currentSlide === index ? styles.activePhoto : ""
                 }`}
-                style={{ backgroundImage: `url(${item})` }}
+                style={{
+                  backgroundImage: `url(${item.productImage.publicURL})`,
+                }}
               ></div>
             )
           })}
@@ -58,8 +60,8 @@ const ImgSlide = ({ thumbnails }) => {
                   return (
                     <ImgCard
                       key={index}
-                      src={item}
-                      alt="product id"
+                      src={item.productImage.publicURL}
+                      alt={item.productImageCap}
                       className={styles.detailImg}
                     />
                   )

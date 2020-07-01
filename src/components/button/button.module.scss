@@ -1,3 +1,5 @@
+@import '../../styles/variable';
+
 .btn {
   display: inline-block;
   border: 2px solid;
@@ -19,4 +21,10 @@
 .white {
   border-color: white;
   color: white;
+}
+
+.gold {
+  border-color: $gold;
+  color: $gold;
+  background-color: white;
 }

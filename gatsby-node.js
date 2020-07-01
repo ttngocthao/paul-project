@@ -35,6 +35,28 @@ exports.createPages = async ({ graphql, actions }) => {
               image04 {
                 publicURL
               }
+              products {
+                shortIntro {
+                  paragraph
+                }
+                productList {
+                  productCode
+                  productName
+                  productPrice
+                  productDescription {
+                    paragraph
+                  }
+                  productImages {
+                    productImage {
+                      publicURL
+                    }
+                    productImageCap
+                  }
+                  productMoreDetail {
+                    paragraph
+                  }
+                }
+              }
               productsIntro {
                 heading
                 text {
@@ -71,7 +93,7 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `)
-  console.log("here", JSON.stringify(result, null, 4))
+  //console.log("here", JSON.stringify(result, null, 4))
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     let nodePath
 
