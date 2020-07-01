@@ -155,9 +155,9 @@ $width: 300px;
 
 .activeTab {
   color: white;
-  border-left: 1px solid;
-  border-top: 1px solid;
-  border-right: 1px solid;
+  border-left: 1px solid $black;
+  border-top: 1px solid $black;
+  border-right: 1px solid $black;
   position: relative;
   background-color: $black;
 

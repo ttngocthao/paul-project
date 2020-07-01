@@ -22,13 +22,13 @@ const Products = ({ data }) => {
             <Button
               href="#contact"
               label="Contact Paul"
-              color="gold"
+              color="white"
               className={styles.contactBtn}
             />
             <Button
               href="#facebook link"
               label="follow Paul"
-              color="gold"
+              color="white"
               className={styles.followBtn}
             />
           </div>
