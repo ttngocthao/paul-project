@@ -34,11 +34,16 @@ const Products = ({ data }) => {
           </div>
         </div>
         <div className={styles.mainSection}>
-          <ul>
+          <ul className={styles.productList}>
             {productList &&
               productList.length !== 0 &&
               productList.map((item, index) => {
-                return <ProductItem key={index} itemData={item} />
+                return (
+                  <Fragment key={index}>
+                    <ProductItem key={index} itemData={item} />
+                    <ProductItem key={`${index}-extra`} itemData={item} />
+                  </Fragment>
+                )
               })}
           </ul>
         </div>

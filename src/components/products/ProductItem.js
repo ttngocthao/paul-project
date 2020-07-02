@@ -5,7 +5,7 @@ import styles from "./products.module.scss"
 import ImgSlide from "../ImgSlide/ImgSlide"
 
 const ProductItem = ({ itemData }) => {
-  console.log(itemData)
+  // console.log(itemData)
   const thumbnails = itemData && itemData.productImages
   const {
     productCode,

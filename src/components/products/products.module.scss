@@ -78,7 +78,11 @@ $width: 300px;
 .itemWrap {
   max-width: $width;
 
-  margin: 20px auto;
+  margin: 20px;
+
+  // @media only screen and (min-width:700px) {
+  //   margin: 20px;
+  // }
 
 }
 
@@ -170,4 +174,12 @@ $width: 300px;
     height: 2px;
     background-color: $black;
   }
+}
+
+.productList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
 }

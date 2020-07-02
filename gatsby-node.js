@@ -94,6 +94,7 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `)
   //console.log("here", JSON.stringify(result, null, 4))
+
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     let nodePath
 
