@@ -139,7 +139,7 @@ collections:
               fields:
                 [
                   {
-                    name: delieveryInfo,
+                    name: deliveryInfo,
                     label: Delievery Information,
                     widget: list,
                     fields:

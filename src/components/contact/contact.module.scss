@@ -1,0 +1,68 @@
+@import '../../styles/_variable';
+
+.wrap {
+  position: relative;
+  color: $black;
+  background-color: $gold;
+  text-align: center;
+}
+
+.spareWrap {
+  padding-top: 60px;
+
+  max-width: 1536px;
+  margin: 0 auto;
+}
+
+.topSection {
+  background-color: $gold;
+
+  padding-top: 30px;
+  //padding-bottom: 60px;
+  text-align: center;
+
+}
+
+.title {
+
+  font-size: 6vw;
+  text-align: center;
+  letter-spacing: .2rem;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+
+  @media only screen and (min-width:$viewPointMedium) {
+    font-size: 3rem;
+  }
+}
+
+.icon {
+  color: $black;
+  font-size: 25px;
+}
+
+.contactList {
+  padding: 20px 0;
+}
+
+.contactItem {
+  list-style: none;
+  padding: 5px 0;
+
+  a {
+    color: $black;
+    text-decoration: none;
+  }
+}
+
+.quickActionList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.quickActionItem {
+  padding: 20px;
+}

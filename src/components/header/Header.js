@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import styles from "./header.module.scss"
-
+import Logo from "../../images/logo_white.png"
 const Header = props => {
   const [menuOpened, setMenuOpened] = useState(false)
 
@@ -14,7 +14,7 @@ const Header = props => {
       <nav className={styles.nav}>
         <div className={styles.navContent}>
           <Link to="/">
-            <span style={{ color: "white" }}>Logo</span>
+            <img src={Logo} alt="Chain Logo in white" className={styles.logo} />
           </Link>
           <ul
             className={`${styles.menuBtn} ${menuOpened && styles.menuOpened}`}
@@ -44,7 +44,7 @@ const Header = props => {
             <a href="#contact">Contact</a>
           </li>
           <li className={styles.menuItem} onClick={() => setMenuOpened(false)}>
-            <a href="#delievery">Delievery</a>
+            <a href="#products">Delievery</a>
           </li>
         </ul>
       </nav>

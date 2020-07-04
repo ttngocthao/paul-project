@@ -5,7 +5,8 @@ import styles from "./products.module.scss"
 import Button from "../button/Button"
 import Modal from "../modal/Modal"
 const Products = ({ data }) => {
-  const { productList, shortIntro } = data
+  const { productList, shortIntro, deliveryInfo } = data
+
   const [isDeliveryModalOpenned, setDeliveryModalOpenned] = useState(false)
   return (
     <Fragment>
@@ -54,9 +55,11 @@ const Products = ({ data }) => {
       {isDeliveryModalOpenned && (
         <Modal closeModal={() => setDeliveryModalOpenned(false)}>
           <div className={styles.deliveryWrap}>
-            Delivery: Reprehenderit quis dolore dolore sunt. In non aliqua
-            labore qui id veniam Lorem qui excepteur quis quis labore excepteur.
-            Veniam in irure deserunt non.
+            {deliveryInfo &&
+              deliveryInfo.length !== 0 &&
+              deliveryInfo.map((p, i) => {
+                return <p key={i}>{p.paragraph}</p>
+              })}
           </div>
         </Modal>
       )}

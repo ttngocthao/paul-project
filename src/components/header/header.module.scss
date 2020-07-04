@@ -10,6 +10,7 @@
   transform: translateX(-50%);
   background-color: $black;
   z-index: 30;
+  border-bottom: 1px solid white;
 
   @media only screen and (min-width:$viewPointMedium) {
     padding: 20px 2.5rem 10px;
@@ -105,9 +106,9 @@
 
 .navContent {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
-  padding-bottom: 10px;
+  // padding-bottom: 10px;
 }
 
 .logoWrap {
@@ -155,4 +156,8 @@
 .menuItem:hover a {
   border-bottom: 1.5px solid $gold;
   padding-bottom: 2.5px;
+}
+
+.logo {
+  max-width: 30px;
 }

@@ -5,6 +5,7 @@ import Grid from "../components/homeGrid/Grid"
 import About from "../components/about/About"
 import Products from "../components/products/Products"
 import BgImgSection from "../components/bgImgSection/BgImgSection"
+import Contact from "../components/contact/Contact"
 
 const indexPage = ({ pageContext }) => {
   const { itemData } = pageContext
@@ -15,6 +16,7 @@ const indexPage = ({ pageContext }) => {
       <About data={itemData.aboutDetail} />
 
       <Products data={itemData.products} />
+      <Contact />
     </Layout>
   )
 }

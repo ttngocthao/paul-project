@@ -36,6 +36,9 @@ exports.createPages = async ({ graphql, actions }) => {
                 publicURL
               }
               products {
+                deliveryInfo {
+                  paragraph
+                }
                 shortIntro {
                   paragraph
                 }

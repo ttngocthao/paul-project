@@ -190,4 +190,9 @@ $width: 300px;
   align-items: center;
   min-height: 400px;
   color: white;
+  flex-direction: column;
+
+  p {
+    padding: 5px 0;
+  }
 }
