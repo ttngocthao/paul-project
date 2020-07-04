@@ -3,8 +3,8 @@ templateKey: index-page
 title: Chaindle sticks
 image01: thumbnail_image2.jpg
 image02: thumbnail_image0.jpg
-image03: 7442a5ae603d27d1cf50ce8be906c2bd.jpeg
-image04: 80f453473d2af41f179584713b791fd7.jpeg
+image03: 325505_115024751941948_1977122838_o.jpg
+image04: thumbnail_image1-1-.jpg
 shortIntro:
   shortIntroHeading: BUILD YOUR AMAZING WEBSITE
   shortIntroText:
