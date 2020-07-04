@@ -122,5 +122,13 @@ products:
     - paragraph: Cillum adipisicing amet ipsum ipsum eiusmod ex aliqua mollit aute
         tempor. Sint laboris ea dolor amet nostrud dolor adipisicing adipisicing
         duis labore magna nostrud dolor.
+  delieveryInfo:
+    - paragraph: " Delivery: Reprehenderit quis dolore dolore sunt. In non
+        aliqua  labore qui id veniam Lorem qui excepteur quis quis labore
+        excepteur."
+    - paragraph: "  Irure cupidatat ipsum labore dolor occaecat commodo nisi sit ut id
+        enim. Magna nulla culpa duis Lorem laboris aute quis quis nulla. Nostrud
+        minim incididunt excepteur duis veniam deserunt exercitation quis culpa
+        eu tempor ex deserunt. Fugiat sint officia cillum consectetur."
 image: lavender-background.jpg
 ---
