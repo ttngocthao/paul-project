@@ -22,7 +22,7 @@ const Contact = props => {
         <ul className={styles.contactList}>
           <li className={styles.contactItem}>
             {/* <FontAwesomeIcon icon={faMobileAlt} className={styles.icon} /> */}
-            <a href="tell:+447547432860">Phone: +44 (0)7538282716</a>
+            <a href="tel:+447547432860">Phone: +44 (0)7538282716</a>
           </li>
           <li className={styles.contactItem}>
             {/* <FontAwesomeIcon icon={faEnvelope} className={styles.icon} /> */}
@@ -34,7 +34,7 @@ const Contact = props => {
         <ul className={styles.quickActionList}>
           {/* https://wa.me/447538282716?text=I'm%20interested%20in%20your%20candlesticks%20for%20sale */}
           <li className={styles.quickActionItem}>
-            <a href="#">
+            <a href="https://wa.me/447538282716?text=I'm%20interested%20in%20your%20candlesticks%20for%20sale">
               <FontAwesomeIcon icon={faWhatsapp} className={styles.icon} />
             </a>
           </li>

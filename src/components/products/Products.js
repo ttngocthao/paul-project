@@ -45,7 +45,7 @@ const Products = ({ data }) => {
                 return (
                   <Fragment key={index}>
                     <ProductItem key={index} itemData={item} />
-                    <ProductItem key={`${index}-extra`} itemData={item} />
+                    {/* <ProductItem key={`${index}-extra`} itemData={item} /> */}
                   </Fragment>
                 )
               })}
