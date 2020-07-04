@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Chaindle sticks
 image01: thumbnail_image2.jpg
-image02: d07586f450baf06b5db84a6382f91981.jpeg
+image02: thumbnail_image0.jpg
 image03: 7442a5ae603d27d1cf50ce8be906c2bd.jpeg
 image04: 80f453473d2af41f179584713b791fd7.jpeg
 shortIntro:
@@ -15,13 +15,10 @@ shortIntro:
         nascetur ridiculus mus. Proin faucibus bibendum felis ac ullamcorper.
         Quisque non pulvinar enim, blandit laoreet dolor.
   text:
-    - paragraph: "Quisque non est velit. Phasellus ac enim facilisis, pulvinar turpis
-        sit amet, faucibus erat. Aliquam ac ex consectetur, venenatis mi et,
-        dignissim tortor. "
-    - paragraph: Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Proin faucibus bibendum felis ac ullamcorper.
-        Quisque non pulvinar enim, blandit laoreet dolor.
-  heading: ABOUT US
+    - paragraph: I'm a professional welder who likes to make art in my spare time.
+    - paragraph: I realised that the potential to fabricate different shapes with
+        chain is almost limitless. I decided to specialise making candlesticks.
+  heading: ABOUT ME
 productsIntro:
   shortProductsIntroText:
     - paragraph: "Morbi eros lorem, imperdiet a dictum ac, consectetur vel lacus.
@@ -33,11 +30,10 @@ productsIntro:
   productIntroHeading: Our products
   heading: OUR PRODUCTS
   text:
-    - paragraph: Morbi eros lorem, imperdiet a dictum ac, consectetur vel lacus.
-        Aenean gravida posuere elit. Cum sociis natoque penatibus et magnis dis
-        parturient montes, nascetur ridiculus mus.
-    - paragraph: Duis lacinia et urna sit amet congue. Pellentesque vel leo a eros
-        sollicitudin varius a ac lacus. Aliquam viverra laoreet aliquet.
+    - paragraph: The products are fabricated from steel chain. Each link is securely
+        welded to the next to fashion different styles of candlesticks. Some
+        support two candles and can be made as a pair. They have a Gothic
+        appearance and are finished in durable, black hammed paint.
 aboutDetail:
   avatar: avatar.jpg
   role: Welder - Artist - Founder
