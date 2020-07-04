@@ -139,6 +139,13 @@ collections:
               fields:
                 [
                   {
+                    name: delieveryInfo,
+                    label: Delievery Information,
+                    widget: list,
+                    fields:
+                      [{ name: paragraph, label: paragraph, widget: string }],
+                  },
+                  {
                     name: shortIntro,
                     label: Short Introduction,
                     widget: list,

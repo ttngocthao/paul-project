@@ -1,10 +1,12 @@
-import React, { Fragment } from "react"
+import React, { Fragment, useState } from "react"
 import PropTypes from "prop-types"
 import ProductItem from "./ProductItem"
 import styles from "./products.module.scss"
 import Button from "../button/Button"
+import Modal from "../modal/Modal"
 const Products = ({ data }) => {
   const { productList, shortIntro } = data
+  const [isDeliveryModalOpenned, setDeliveryModalOpenned] = useState(false)
   return (
     <Fragment>
       <div className={styles.spareWrap} id="products"></div>
@@ -27,9 +29,10 @@ const Products = ({ data }) => {
             />
             <Button
               href="#facebook link"
-              label="follow Paul"
+              label="Delivery/Shipping"
               color="white"
               className={styles.followBtn}
+              onClick={() => setDeliveryModalOpenned(true)}
             />
           </div>
         </div>
@@ -48,6 +51,15 @@ const Products = ({ data }) => {
           </ul>
         </div>
       </div>
+      {isDeliveryModalOpenned && (
+        <Modal closeModal={() => setDeliveryModalOpenned(false)}>
+          <div className={styles.deliveryWrap}>
+            Delivery: Reprehenderit quis dolore dolore sunt. In non aliqua
+            labore qui id veniam Lorem qui excepteur quis quis labore excepteur.
+            Veniam in irure deserunt non.
+          </div>
+        </Modal>
+      )}
     </Fragment>
   )
 }
