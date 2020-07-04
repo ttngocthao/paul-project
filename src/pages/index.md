@@ -1,23 +1,21 @@
 ---
 templateKey: index-page
 title: Chaindle sticks
-image01: 93ca41f399f3196923c769da96fc2aec.jpeg
+image01: thumbnail_image2.jpg
 image02: d07586f450baf06b5db84a6382f91981.jpeg
 image03: 7442a5ae603d27d1cf50ce8be906c2bd.jpeg
 image04: 80f453473d2af41f179584713b791fd7.jpeg
 shortIntro:
   shortIntroHeading: BUILD YOUR AMAZING WEBSITE
   shortIntroText:
-    - paragraph:
-        Quisque non est velit. Phasellus ac enim facilisis, pulvinar turpis
+    - paragraph: Quisque non est velit. Phasellus ac enim facilisis, pulvinar turpis
         sit amet, faucibus erat. Aliquam ac ex consectetur, venenatis mi et,
         dignissim tortor.
     - paragraph: Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Proin faucibus bibendum felis ac ullamcorper.
         Quisque non pulvinar enim, blandit laoreet dolor.
   text:
-    - paragraph:
-        "Quisque non est velit. Phasellus ac enim facilisis, pulvinar turpis
+    - paragraph: "Quisque non est velit. Phasellus ac enim facilisis, pulvinar turpis
         sit amet, faucibus erat. Aliquam ac ex consectetur, venenatis mi et,
         dignissim tortor. "
     - paragraph: Cum sociis natoque penatibus et magnis dis parturient montes,
@@ -26,12 +24,10 @@ shortIntro:
   heading: ABOUT US
 productsIntro:
   shortProductsIntroText:
-    - paragraph:
-        "Morbi eros lorem, imperdiet a dictum ac, consectetur vel lacus.
+    - paragraph: "Morbi eros lorem, imperdiet a dictum ac, consectetur vel lacus.
         Aenean gravida posuere elit. Cum sociis natoque penatibus et magnis dis
         parturient montes, nascetur ridiculus mus. "
-    - paragraph:
-        "Morbi eros lorem, imperdiet a dictum ac, consectetur vel lacus.
+    - paragraph: "Morbi eros lorem, imperdiet a dictum ac, consectetur vel lacus.
         Aenean gravida posuere elit. Cum sociis natoque penatibus et magnis dis
         parturient montes, nascetur ridiculus mus. "
   productIntroHeading: Our products
@@ -40,19 +36,16 @@ productsIntro:
     - paragraph: Morbi eros lorem, imperdiet a dictum ac, consectetur vel lacus.
         Aenean gravida posuere elit. Cum sociis natoque penatibus et magnis dis
         parturient montes, nascetur ridiculus mus.
-    - paragraph:
-        Duis lacinia et urna sit amet congue. Pellentesque vel leo a eros
+    - paragraph: Duis lacinia et urna sit amet congue. Pellentesque vel leo a eros
         sollicitudin varius a ac lacus. Aliquam viverra laoreet aliquet.
 aboutDetail:
   avatar: avatar.jpg
   role: Welder - Artist - Founder
   story:
     - block:
-        - paragraph:
-            Story about yourself (ralated to this business).Story of candle
+        - paragraph: Story about yourself (ralated to this business).Story of candle
             stick,what/where/why/how the idea came.
-        - paragraph:
-            Aute magna sit fugiat in nulla minim eiusmod. Do sunt ea ullamco
+        - paragraph: Aute magna sit fugiat in nulla minim eiusmod. Do sunt ea ullamco
             Lorem nulla quis sit quis cupidatat amet in qui sint. Est aute
             incididunt cupidatat ipsum. Magna veniam ad pariatur id ex sint esse
             fugiat elit deserunt mollit quis. Ex culpa consequat irure duis aute
@@ -60,8 +53,7 @@ aboutDetail:
             pariatur nulla aliquip ipsum fugiat consectetur voluptate velit.
       image: venice-5083204_1280.jpg
     - block:
-        - paragraph:
-            Amet quis commodo labore aliqua eu ullamco. Enim officia officia
+        - paragraph: Amet quis commodo labore aliqua eu ullamco. Enim officia officia
             fugiat nostrud mollit. Excepteur ex tempor officia cillum ex duis
             commodo Lorem nostrud. Elit occaecat ad enim excepteur eu officia ex
             non nisi. Labore aute ea veniam eiusmod qui aliquip sint aliqua
@@ -69,8 +61,7 @@ aboutDetail:
             irure amet mollit magna qui.
       image: water-2554729_1280.jpg
     - block:
-        - paragraph:
-            Esse adipisicing ea dolore eu ex incididunt tempor adipisicing nisi.
+        - paragraph: Esse adipisicing ea dolore eu ex incididunt tempor adipisicing nisi.
             Et non cillum quis ullamco aliqua eiusmod amet sit fugiat commodo
             minim ullamco fugiat ea. Commodo sit incididunt nulla nostrud nisi
             consectetur adipisicing nostrud deserunt culpa consequat. Laboris
@@ -91,17 +82,14 @@ products:
       productCode: RC_red_black
       productPrice: "135"
       productDescription:
-        - paragraph:
-            "Description: Lorem sint nisi et Lorem nulla ea magna elit commodo.
+        - paragraph: "Description: Lorem sint nisi et Lorem nulla ea magna elit commodo.
             Anim tempor culpa officia ea aute occaecat eiusmod culpa tempor et
             qui deserunt aliqua anim. "
-        - paragraph:
-            Eu incididunt non ut sunt ea nostrud nostrud. Voluptate incididunt do
+        - paragraph: Eu incididunt non ut sunt ea nostrud nostrud. Voluptate incididunt do
             culpa elit deserunt ut veniam ipsum aute quis ullamco ea est.
       productMoreDetail:
         - paragraph: "H: 80cm, W: 50cm, Weight: etc"
-        - paragraph:
-            Minim enim mollit voluptate fugiat adipisicing elit incididunt. Anim
+        - paragraph: Minim enim mollit voluptate fugiat adipisicing elit incididunt. Anim
             quis ea minim id ex consectetur. Nostrud tempor sit aliquip enim
             laborum est. Dolor ea do Lorem aliquip in mollit exercitation
             proident.
@@ -113,39 +101,32 @@ products:
         - productImage: 4493161.jpg
         - productImage: 43946454-rusty-boat-anchor-chain-on-the-coast.jpg
       productDescription:
-        - paragraph:
-            "Temporibus autem quibusdam et aut officiis debitis aut rerum
+        - paragraph: "Temporibus autem quibusdam et aut officiis debitis aut rerum
             necessitatibus saepe eveniet ut et voluptates repudiandae sint et
             molestiae non recusandae. "
-        - paragraph:
-            Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+        - paragraph: Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
             voluptatibus maiores alias consequatur aut perferendis doloribus
             asperiores repellat.
       productMoreDetail:
-        - paragraph:
-            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+        - paragraph: Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
             consectetur, adipisci velit, sed quia non numquam eius modi tempora
             incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-        - paragraph:
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        - paragraph: Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
             quae ab illo inventore veritatis et quasi architecto beatae vitae
             dicta sunt explicabo.
   shortIntro:
-    - paragraph:
-        Cillum adipisicing amet ipsum ipsum eiusmod ex aliqua mollit aute
+    - paragraph: Cillum adipisicing amet ipsum ipsum eiusmod ex aliqua mollit aute
         tempor. Sint laboris ea dolor amet nostrud dolor adipisicing adipisicing
         duis labore magna nostrud dolor.
-    - paragraph:
-        Cillum adipisicing amet ipsum ipsum eiusmod ex aliqua mollit aute
+    - paragraph: Cillum adipisicing amet ipsum ipsum eiusmod ex aliqua mollit aute
         tempor. Sint laboris ea dolor amet nostrud dolor adipisicing adipisicing
         duis labore magna nostrud dolor.
   deliveryInfo:
     - paragraph: " Delivery: Reprehenderit quis dolore dolore sunt. In non
         aliqua  labore qui id veniam Lorem qui excepteur quis quis labore
         excepteur."
-    - paragraph:
-        "  Irure cupidatat ipsum labore dolor occaecat commodo nisi sit ut id
+    - paragraph: "  Irure cupidatat ipsum labore dolor occaecat commodo nisi sit ut id
         enim. Magna nulla culpa duis Lorem laboris aute quis quis nulla. Nostrud
         minim incididunt excepteur duis veniam deserunt exercitation quis culpa
         eu tempor ex deserunt. Fugiat sint officia cillum consectetur."
