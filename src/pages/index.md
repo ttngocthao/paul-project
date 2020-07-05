@@ -39,19 +39,23 @@ aboutDetail:
   role: Welder - Artist - Founder
   story:
     - block:
-        - paragraph: I'm a time served professional welder. I completed my apprenticeship
-            in a shipbuilding environment and have worked on various projects
-            related to heavy engineering and construction all my working life.
-        - paragraph: "There's something of a tradition among welders to make \"Trade
-            art\", often from spare metal parts and materials left over from
-            work projects, Not to be left out, I started fashioning chain into
-            candlesticks. After giving them away as gifts to friends it became
-            obvious they were popular and I kept get requests to make more. "
+        - paragraph: I'm a time served professional welder in the UK. I completed my
+            apprenticeship in a shipbuilding environment and have worked on
+            various projects related to heavy engineering and construction all
+            my working life.
+        - paragraph: There's something of a tradition among welders to make "Trade art",
+            often from spare metal parts and materials left over from work
+            projects, Not to be left out, I started fashioning chain into chain
+            candle holders and called them Chaindlesticks. After giving them
+            away as gifts to friends in the UK, it became obvious they were
+            popular and I kept getting requests to make more chain candle
+            holders!
       image: 322286_115025351941888_1226229952_o.jpg
     - block:
         - paragraph: I've invested in a small workshop and now am in a position to make
-            stock and take commissions for anyone with personal ideas for an
-            original product.
+            more chain candle holders and take commissions for anyone with
+            personal ideas for an original product made from steel chain in the
+            UK.
       image: 291089_115028911941532_35637611_o.jpg
 products:
   productList:
@@ -107,12 +111,8 @@ products:
         tempor. Sint laboris ea dolor amet nostrud dolor adipisicing adipisicing
         duis labore magna nostrud dolor.
   deliveryInfo:
-    - paragraph: " Delivery: Reprehenderit quis dolore dolore sunt. In non
-        aliqua  labore qui id veniam Lorem qui excepteur quis quis labore
-        excepteur."
-    - paragraph: "  Irure cupidatat ipsum labore dolor occaecat commodo nisi sit ut id
-        enim. Magna nulla culpa duis Lorem laboris aute quis quis nulla. Nostrud
-        minim incididunt excepteur duis veniam deserunt exercitation quis culpa
-        eu tempor ex deserunt. Fugiat sint officia cillum consectetur."
+    - paragraph: Any free collections are welcome from the Heathrow Terminal 5 area,
+    - paragraph: Postage costs are subject to standard Royal Mail postage costs
+        dependant on size and weight.
 image: lavender-background.jpg
 ---
