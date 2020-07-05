@@ -39,32 +39,20 @@ aboutDetail:
   role: Welder - Artist - Founder
   story:
     - block:
-        - paragraph: Story about yourself (ralated to this business).Story of candle
-            stick,what/where/why/how the idea came.
-        - paragraph: Aute magna sit fugiat in nulla minim eiusmod. Do sunt ea ullamco
-            Lorem nulla quis sit quis cupidatat amet in qui sint. Est aute
-            incididunt cupidatat ipsum. Magna veniam ad pariatur id ex sint esse
-            fugiat elit deserunt mollit quis. Ex culpa consequat irure duis aute
-            consequat mollit labore aliquip. Dolore minim occaecat ex non dolore
-            pariatur nulla aliquip ipsum fugiat consectetur voluptate velit.
-      image: venice-5083204_1280.jpg
+        - paragraph: I'm a time served professional welder. I completed my apprenticeship
+            in a shipbuilding environment and have worked on various projects
+            related to heavy engineering and construction all my working life.
+        - paragraph: "There's something of a tradition among welders to make \"Trade
+            art\", often from spare metal parts and materials left over from
+            work projects, Not to be left out, I started fashioning chain into
+            candlesticks. After giving them away as gifts to friends it became
+            obvious they were popular and I kept get requests to make more. "
+      image: 322286_115025351941888_1226229952_o.jpg
     - block:
-        - paragraph: Amet quis commodo labore aliqua eu ullamco. Enim officia officia
-            fugiat nostrud mollit. Excepteur ex tempor officia cillum ex duis
-            commodo Lorem nostrud. Elit occaecat ad enim excepteur eu officia ex
-            non nisi. Labore aute ea veniam eiusmod qui aliquip sint aliqua
-            cupidatat elit pariatur. Reprehenderit exercitation consequat irure
-            irure amet mollit magna qui.
-      image: water-2554729_1280.jpg
-    - block:
-        - paragraph: Esse adipisicing ea dolore eu ex incididunt tempor adipisicing nisi.
-            Et non cillum quis ullamco aliqua eiusmod amet sit fugiat commodo
-            minim ullamco fugiat ea. Commodo sit incididunt nulla nostrud nisi
-            consectetur adipisicing nostrud deserunt culpa consequat. Laboris
-            sint occaecat aliquip nostrud veniam ex adipisicing ad. Pariatur ex
-            eu ad Lorem culpa laborum quis non proident. Magna minim amet
-            excepteur consectetur est incididunt adipisicing dolore eiusmod et
-            do.
+        - paragraph: I've invested in a small workshop and now am in a position to make
+            stock and take commissions for anyone with personal ideas for an
+            original product.
+      image: 291089_115028911941532_35637611_o.jpg
 products:
   productList:
     - productImages:
