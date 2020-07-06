@@ -35,20 +35,22 @@ const Contact = props => {
           {/* https://wa.me/447538282716?text=I'm%20interested%20in%20your%20candlesticks%20for%20sale */}
           <li className={styles.quickActionItem}>
             <a href="https://wa.me/447538282716?text=I'm%20interested%20in%20your%20candlesticks%20for%20sale">
+              <span className="sr-only">What's app link</span>
               <FontAwesomeIcon icon={faWhatsapp} className={styles.icon} />
             </a>
           </li>
           <li className={styles.quickActionItem}>
-            <a href="#">
-              {" "}
+            <a href="https://www.facebook.com/Paul-Chaindlesticks-113619010411661">
+              <span className="sr-only">facebook link</span>
               <FontAwesomeIcon
                 icon={faFacebookMessenger}
                 className={styles.icon}
               />
+              {/* App Id: 2906481236117520 */}
             </a>
           </li>
           <li className={styles.quickActionItem}>
-            <a href="#">
+            <a href="https://www.facebook.com/Paul-Chaindlesticks-113619010411661">
               <FontAwesomeIcon icon={faFacebookF} className={styles.icon} />
             </a>
           </li>
