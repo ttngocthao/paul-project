@@ -7,21 +7,29 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "website name",
+    title: "Chaindlesticks - Chain candle holder ",
     titleTemplate: "",
-    description: "description",
-    url: "https://www.chaindlestick.co.uk", // No trailing slash allowed!
+    description:
+      "chain candle holders are fabricated from steel chain. Each link is securely welded to the next to fashion different styles of candlesticks. Some support two candles and can be made as a pair. They have a Gothic appearance and are finished in durable, black hammed paint.",
+    keywords:
+      "steel chain, candle holder,welding, welder, Heathrow Terminal, The United King dom",
+    url: "https://www.chaindlestick.com", // No trailing slash allowed!
     image: "/images/favicon.icon", // Path to your image you placed in the 'static' folder
-    twitterUsername: "accountName",
-    facebookUsername: "accountName",
-    instagramUsername: "accountName",
-    linkedInUsername: "accountName",
+
+    facebookUsername: "Paul-Chaindlesticks-113619010411661",
+    instagramUsername: "paul.denman.526",
   },
   plugins: [
     // {
     //   resolve: `gatsby-source-filesystem`,
     //   options: { path: `./src/pages` },
     // },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-171796817-1",
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     { resolve: `gatsby-remark-source-name` },
@@ -31,6 +39,9 @@ module.exports = {
         path: `${__dirname}/src/pages/blog`,
         name: "blogData",
       },
+    },
+    {
+      resolve: `gatsby-plugin-advanced-sitemap`,
     },
     {
       resolve: `gatsby-source-filesystem`,

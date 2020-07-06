@@ -7,7 +7,7 @@ const ImgCard = ({ src, alt, className, width, height, caption }) => {
     <figure className={className}>
       <img
         src={src}
-        alt={alt}
+        alt={alt ? alt : "demo photo"}
         className={styles.imgFullWidth}
         width={width}
         height={height}

@@ -58,7 +58,7 @@ const About = ({ data }) => {
                       <ImgCard
                         src={image.publicURL}
                         className={styles.paraImg}
-                        atl=""
+                        atl="chain candle sticks in black paint"
                       />
                     )}
                   </Fragment>
