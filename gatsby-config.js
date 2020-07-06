@@ -13,6 +13,7 @@ module.exports = {
       "chain candle holders are fabricated from steel chain. Each link is securely welded to the next to fashion different styles of candlesticks. Some support two candles and can be made as a pair. They have a Gothic appearance and are finished in durable, black hammed paint.",
     keywords:
       "steel chain, candle holder,welding, welder, Heathrow Terminal, The United King dom",
+    siteUrl: "https://www.chaindlestick.com",
     url: "https://www.chaindlestick.com", // No trailing slash allowed!
     image: "/images/favicon.icon", // Path to your image you placed in the 'static' folder
 
