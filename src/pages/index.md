@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Chaindle sticks
-image01: thumbnail_image2.jpg
+image01: img_1591.jpg
 image02: thumbnail_image0.jpg
 image03: 325505_115024751941948_1977122838_o.jpg
 image04: thumbnail_image1-1-.jpg
